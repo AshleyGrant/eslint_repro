@@ -1,6 +1,6 @@
 import {decorator} from 'foo';
 
-// @decorator('test')
+@decorator('test')
 export class Test {
   testProperty = 'a string';
 }
